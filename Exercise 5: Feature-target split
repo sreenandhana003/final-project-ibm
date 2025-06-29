@@ -1,0 +1,2 @@
+X = df.drop('RainTomorrow', axis=1)
+y = df['RainTomorrow']
