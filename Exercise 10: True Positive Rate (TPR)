@@ -1,0 +1,5 @@
+cm = confusion_matrix(y_test, y_pred)
+TP = cm[1, 1]
+FN = cm[1, 0]
+TPR = TP / (TP + FN)
+print(f"True Positive Rate: {TPR*100:.0f}%")
