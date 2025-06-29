@@ -1,0 +1,5 @@
+# Drop columns with too many missing values
+df = df.drop(['Evaporation', 'Sunshine', 'Cloud9am', 'Cloud3pm'], axis=1)
+
+# Drop rows with remaining missing values
+df = df.dropna()
